@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <script type="module" crossorigin="" src="./js/index.min.js?v=1772912357401"></script>
+    <link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1772912357401" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header data-fls-header="" class="header">
+        <div class="header__container">
+          <div class="header__body">
+            <div class="header__logo">
+              <picture>
+                <source media="(max-width: 600px)" srcset="./assets/img/logo-600.webp" type="image/webp" />
+                <source media="(max-width: 1200px)" srcset="./assets/img/logo-1200.webp" type="image/webp" />
+                <img alt="" src="./assets/img/logo.webp" />
+              </picture>
+              <span>reelance</span>
+            </div>
+            <!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a data-lang="menuLink1" href="#" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a data-lang="menuLink2" href="#work" class="menu__link">Work</a>
+                </li>
+                <li class="menu__item">
+                  <a data-lang="menuLink3" href="#contacts" class="menu__link">Contacts</a>
+                </li>
+                <select data-select-lang="" class="menu__lang">
+                  <option class="lang-option" value="en" selected>EN</option>
+                  <option class="lang-option" value="ru">RU</option>
+                </select>
+              </ul>
+            </nav>
+            <div class="header__assets">
+              <a href="https://t.me/VasileV84" class="header__assets-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="0 0 24 24">
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      d="M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z"
+                    ></path>
+                    <path
+                      fill="#eedab0"
+                      d="M19.777 4.43a1.5 1.5 0 0 1 2.062 1.626l-2.268 13.757c-.22 1.327-1.676 2.088-2.893 1.427-1.018-.553-2.53-1.405-3.89-2.294-.68-.445-2.763-1.87-2.507-2.884.22-.867 3.72-4.125 5.72-6.062.785-.761.427-1.2-.5-.5-2.302 1.738-5.998 4.381-7.22 5.125-1.078.656-1.64.768-2.312.656-1.226-.204-2.363-.52-3.291-.905-1.254-.52-1.193-2.244-.001-2.746z"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+              <a href="https://github.com/Nexabenskiy" class="header__assets-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="0 0 24 24">
+                  <g fill="none" fill-rule="nonzero">
+                    <path
+                      d="M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z"
+                    ></path>
+                    <path
+                      fill="#eedab0"
+                      d="M7.024 2.31a9 9 0 0 1 2.125 1.046A11.4 11.4 0 0 1 12 3c.993 0 1.951.124 2.849.355a9 9 0 0 1 2.124-1.045c.697-.237 1.69-.621 2.28.032.4.444.5 1.188.571 1.756.08.634.099 1.46-.111 2.28C20.516 7.415 21 8.652 21 10c0 2.042-1.106 3.815-2.743 5.043a9.5 9.5 0 0 1-2.59 1.356c.214.49.333 1.032.333 1.601v3a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-.991c-.955.117-1.756.013-2.437-.276-.712-.302-1.208-.77-1.581-1.218-.354-.424-.74-1.38-1.298-1.566a1 1 0 0 1 .632-1.898c.666.222 1.1.702 1.397 1.088.48.62.87 1.43 1.63 1.753.313.133.772.22 1.49.122L8 17.98a4 4 0 0 1 .333-1.581 9.5 9.5 0 0 1-2.59-1.356C4.106 13.815 3 12.043 3 10c0-1.346.483-2.582 1.284-3.618-.21-.82-.192-1.648-.112-2.283l.005-.038c.073-.582.158-1.267.566-1.719.59-.653 1.584-.268 2.28-.031"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+              <a href="https://x.com/VasilevKostyan" class="header__assets-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" aria-hidden="true" class="iconify iconify--noto" viewbox="0 0 128 128">
+                  <path
+                    fill="#eedab0"
+                    d="M114.31 117.18 81.14 68.9l33-49.02c.48-.73.54-1.66.12-2.43a2.36 2.36 0 0 0-2.08-1.25H84.33c-.78 0-1.51.38-1.95 1.03L64 43.97 45.62 17.22a2.37 2.37 0 0 0-1.95-1.03H15.83c-.87 0-1.68.48-2.08 1.25-.42.77-.36 1.71.12 2.43L46.86 68.9l-33.17 48.28c-.49.72-.55 1.66-.14 2.44.41.77 1.22 1.26 2.09 1.26H44.9c.79 0 1.52-.39 1.96-1.04L64 94.36l17.15 25.48c.44.65 1.17 1.04 1.96 1.04h29.25c.88 0 1.68-.49 2.1-1.26.4-.78.35-1.72-.15-2.44"
+                  ></path>
+                </svg>
+              </a>
+              <select data-select-lang="" id="lang-select" class="header__assets-lang">
+                <option class="lang-option" value="en" selected>EN</option>
+                <option class="lang-option" value="ru">RU</option>
+              </select>
+            </div>
+            <button type="button" data-fls-menu="" class="menu__icon icon-menu">
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- data-fls-header-scroll data-fls-header-scroll-show -->
+      <main class="page page--home">
+        <section class="page__hero hero">
+          <div class="hero__container">
+            <div class="hero__info">
+              <div data-lang="heroSubtitle" class="hero__subtitle">Hello, I’m Kostya,</div>
+              <h1 data-lang="heroTitle" class="hero__title block-title">Frontend Developer</h1>
+              <!-- <div class="hero__text">based in Netherland.</div> -->
+              <a data-fls-button="" href="#work" class="hero__button button">
+                <span data-lang="heroButton" class="hero__button-text button-text">Portfolio</span>
+                <span class="hero__button-slide button-slide">
+                  <svg id="svg" fill="#eedab0" stroke="#eedab0" width="43" height="43" version="1.1" viewbox="144 144 512 512" xmlns="http://www.w3.org/2000/svg" stroke-width="25">
+                    <g id="IconSvg_bgCarrier" stroke-width="0"></g>
+                    <g id="IconSvg_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0">
+                      <path
+                        xmlns="http://www.w3.org/2000/svg"
+                        d="m545.6 413.6-95.723 97.234v-136.03c0-54.914-44.84-99.754-99.754-99.754-54.914 0-100.26 44.84-100.26 99.754 0 1.5117 1.0078 2.5195 2.5195 2.5195 1.5117 0 2.5195-1.0078 2.5195-2.5195 0-52.395 42.32-94.715 94.715-94.715 52.395 0 94.715 42.32 94.715 94.715v136.03l-95.723-97.234c-1.0078-1.0078-2.5195-1.0078-3.5273 0-1.0078 1.0078-1.0078 2.5195 0 3.5273l102.27 103.79 102.27-103.79c1.0078-1.0078 1.0078-2.5195 0-3.5273-1.5117-1.0078-3.0234-1.0078-4.0312 0z"
+                      ></path>
+                    </g>
+                    <g id="IconSvg_iconCarrier">
+                      <path
+                        xmlns="http://www.w3.org/2000/svg"
+                        d="m545.6 413.6-95.723 97.234v-136.03c0-54.914-44.84-99.754-99.754-99.754-54.914 0-100.26 44.84-100.26 99.754 0 1.5117 1.0078 2.5195 2.5195 2.5195 1.5117 0 2.5195-1.0078 2.5195-2.5195 0-52.395 42.32-94.715 94.715-94.715 52.395 0 94.715 42.32 94.715 94.715v136.03l-95.723-97.234c-1.0078-1.0078-2.5195-1.0078-3.5273 0-1.0078 1.0078-1.0078 2.5195 0 3.5273l102.27 103.79 102.27-103.79c1.0078-1.0078 1.0078-2.5195 0-3.5273-1.5117-1.0078-3.0234-1.0078-4.0312 0z"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="hero__images">
+              <svg class="hero__images-decor-crosses" width="50" height="56" viewbox="0 0 50 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="9" y="16" width="6" height="24" rx="3" fill="#ed6742"></rect>
+                <rect y="31" width="6" height="24" rx="3" transform="rotate(-90 0 31)" fill="#ed6742"></rect>
+                <rect x="35" y="32" width="6" height="24" rx="3" fill="#ed6742"></rect>
+                <rect x="26" y="47" width="6" height="24" rx="3" transform="rotate(-90 26 47)" fill="#ed6742"></rect>
+                <rect x="35" width="6" height="24" rx="3" fill="#ed6742"></rect>
+                <rect x="26" y="15" width="6" height="24" rx="3" transform="rotate(-90 26 15)" fill="#ed6742"></rect>
+              </svg>
+              <svg class="hero__images-decor-slashes" width="104" height="30" viewbox="0 0 104 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="12.2021" width="5" height="30" transform="rotate(24 12.2021 0)" fill="#ed6742"></rect>
+                <rect x="33.9719" width="5" height="30" transform="rotate(24 33.9719 0)" fill="#ed6742"></rect>
+                <rect x="55.7418" width="5" height="30" transform="rotate(24 55.7418 0)" fill="#ed6742"></rect>
+                <rect x="77.5116" width="5" height="30" transform="rotate(24 77.5116 0)" fill="#ed6742"></rect>
+                <rect x="99.2813" width="5" height="30" transform="rotate(24 99.2813 0)" fill="#ed6742"></rect>
+              </svg>
+              <img class="hero__images-photo" src="./assets/img/i%20am.png" alt="автор" />
+              <svg class="hero__images-vector" width="493" height="493" viewbox="0 0 493 493" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M244.33 0.65625C329.356 -2.34802 418.26 38.0835 460.778 103.39C503.292 168.78 499.498 259.152 470.485 326.715C441.489 394.148 387.218 438.755 326.908 465.895C267.15 492.736 201.546 502.24 144.726 480.45L143.385 479.93L142.045 479.397C85.4086 456.617 37.7939 402.521 14.9658 333.776C-7.95276 264.576 -5.57436 180.566 36.1367 115.425C77.9457 50.1817 159.226 3.66019 244.33 0.65625Z"
+                  stroke="#ed6742"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </section>
+        <section id="work" class="page__work work">
+          <div class="work__container">
+            <div class="work__top">
+              <div class="work__title">
+                <h2 data-lang="workTitle" data-aos="fade-right" class="work__title block-title">work</h2>
+                <span data-aos="fade-left" data-aos-duration="1500" class="block-title">.</span>
+              </div>
+              <div data-aos="fade-up" class="work__text">
+                <p data-lang="workText" class="block-text">
+                  <!--
+Здесь представлены мои проекты в web-разработке. Я стремился реализовать проекты, которые не только соответствуют техническим требованиям, но и обеспечивают удобный пользовательский
+интерфейс. Мои основные скилы это JavaScript, React, Minista, SCSS, Tilwind CSS, CMS Tilda и WordPress.
+-->
+                  Here are my projects in web development. I have been striving to implement projects that not only meet the technical requirements but also provide a user-friendly interface. My main
+                  skills are JavaScript, React, Minista, SCSS, Tilwind CSS, CMS Tilda, and WordPress.
+                </p>
+              </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="work__portfolio">
+              <div class="work__image">
+                <img src="./assets/img/notebook.png" alt="" />
+                <div class="work__window">
+                  <div data-fls-slider="" class="work__slider swiper">
+                    <div class="work__slider-wrapper swiper-wrapper">
+                      <div class="work__slider-slide swiper-slide slide-work">
+                        <div class="slide-work__link">
+                          <!-- <img src="@img/work/011.jpg" alt="" /> -->
+                          <video width="100%" height="100%" controls poster="./assets/img/011.jpg">
+                            <source src="./assets/video/nikasson.mp4" type="video/mp4" />
+                          </video>
+                          <div class="slide-work__info">
+                            <a data-lang="workTitle1" href="#" class="slide-work__title">NIKASSON BREND</a>
+                            <div class="slide-work__description">
+                              <p data-lang="workDescr1P1" class="first-paragraph">
+                                The site offers services for the restoration of antique furniture and the production of custom furniture. Sale of master classes. The site is set up on the Tilda
+                                platform using third-party code. Standard and Z-blocks are combined.
+                              </p>
+                              <p data-lang="workDescr1P2">Skills: Figma, Tilda, JS, CSS</p>
+                              <a href="https://github.com/Nexabenskiy/NIKASON-tilda" class="slide-work__github">GitHub</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="work__slider-slide swiper-slide slide-work">
+                        <div class="slide-work__link">
+                          <!-- <img src="@img/work/012.jpg" alt="" /> -->
+                          <video width="100%" height="100%" controls poster="./assets/img/012.jpg">
+                            <source src="./assets/video/yoga.mp4" type="video/mp4" />
+                          </video>
+                          <div class="slide-work__info">
+                            <a data-lang="workTitle2" href="#" class="slide-work__title">Yoga</a>
+                            <div class="slide-work__description">
+                              <p data-lang="workDescr2P1">
+                                The website is an online platform designed for selling yoga master classes. It is built on the Tilda platform using third-party code. Standard and Z-blocks are
+                                combined.
+                              </p>
+                              <p data-lang="workDescr2P2">Skills: Figma, Tilda, JS, CSS</p>
+                              <a href="https://github.com/Nexabenskiy/Tilda-yoga" class="slide-work__github">GitHub</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="work__slider-slide swiper-slide slide-work">
+                        <div class="slide-work__link">
+                          <img src="./assets/img/013.jpg" alt="" />
+                          <div class="slide-work__info">
+                            <a href="#" class="slide-work__title">PLANTIFY</a>
+                            <div class="slide-work__description">
+                              <p data-lang="workDescr3P1">
+                                The online store of indoor plants offers a variety of potted flowers to decorate the interior of your home or office. The ordering process is simple and quick, and
+                                delivery is available to the specified address. The website is developed using JS, React frameworks, and Tailwind CSS.
+                              </p>
+                              <p data-lang="workDescr3P2">Skills: Figma, React, Tailwind CSS, JS</p>
+                              <a href="https://github.com/Nexabenskiy/Plantify_react" class="slide-work__github">GitHub</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="work__slider-slide swiper-slide slide-work">
+                        <div class="slide-work__link">
+                          <img src="./assets/img/015.jpg" alt="" />
+                          <div class="slide-work__info">
+                            <a href="#" class="slide-work__title">MAROON</a>
+                            <div class="slide-work__description">
+                              <p data-lang="workDescr4P1">
+                                The online cosmetics store is a convenient platform for purchasing high-quality decorative and care products from well-known brands. The order is placed in a simple
+                                way, and the delivery and payment methods are available. The website is developed in JS, SCSS, and GULP.
+                              </p>
+                              <p data-lang="workDescr4P2">Skills: Figma, SCSS, JS, GULP</p>
+                              <a href="https://github.com/Nexabenskiy/MAROON" class="slide-work__github">GitHub</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ////// -->
+              </div>
+              <div class="work__slider-controls controls-work-slider">
+                <div class="controls-work-slider__arrows">
+                  <div class="controls-work-slider__prev">
+                    <svg id="svg" fill="#eedab0" stroke="#eedab0" width="60" height="60" version="1.1" viewbox="144 144 512 512" xmlns="http://www.w3.org/2000/svg" stroke-width="25">
+                      <g id="IconSvg_bgCarrier" stroke-width="1"></g>
+                      <g id="IconSvg_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0">
+                        <path
+                          xmlns="http://www.w3.org/2000/svg"
+                          d="m545.6 413.6-95.723 97.234v-136.03c0-54.914-44.84-99.754-99.754-99.754-54.914 0-100.26 44.84-100.26 99.754 0 1.5117 1.0078 2.5195 2.5195 2.5195 1.5117 0 2.5195-1.0078 2.5195-2.5195 0-52.395 42.32-94.715 94.715-94.715 52.395 0 94.715 42.32 94.715 94.715v136.03l-95.723-97.234c-1.0078-1.0078-2.5195-1.0078-3.5273 0-1.0078 1.0078-1.0078 2.5195 0 3.5273l102.27 103.79 102.27-103.79c1.0078-1.0078 1.0078-2.5195 0-3.5273-1.5117-1.0078-3.0234-1.0078-4.0312 0z"
+                        ></path>
+                      </g>
+                      <g id="IconSvg_iconCarrier">
+                        <path
+                          xmlns="http://www.w3.org/2000/svg"
+                          d="m545.6 413.6-95.723 97.234v-136.03c0-54.914-44.84-99.754-99.754-99.754-54.914 0-100.26 44.84-100.26 99.754 0 1.5117 1.0078 2.5195 2.5195 2.5195 1.5117 0 2.5195-1.0078 2.5195-2.5195 0-52.395 42.32-94.715 94.715-94.715 52.395 0 94.715 42.32 94.715 94.715v136.03l-95.723-97.234c-1.0078-1.0078-2.5195-1.0078-3.5273 0-1.0078 1.0078-1.0078 2.5195 0 3.5273l102.27 103.79 102.27-103.79c1.0078-1.0078 1.0078-2.5195 0-3.5273-1.5117-1.0078-3.0234-1.0078-4.0312 0z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="controls-work-slider__next">
+                    <svg id="svg" fill="#eedab0" stroke="#eedab0" width="60" height="60" version="1.1" viewbox="144 144 512 512" xmlns="http://www.w3.org/2000/svg" stroke-width="25">
+                      <g id="IconSvg_bgCarrier" stroke-width="1"></g>
+                      <g id="IconSvg_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0">
+                        <path
+                          xmlns="http://www.w3.org/2000/svg"
+                          d="m545.6 413.6-95.723 97.234v-136.03c0-54.914-44.84-99.754-99.754-99.754-54.914 0-100.26 44.84-100.26 99.754 0 1.5117 1.0078 2.5195 2.5195 2.5195 1.5117 0 2.5195-1.0078 2.5195-2.5195 0-52.395 42.32-94.715 94.715-94.715 52.395 0 94.715 42.32 94.715 94.715v136.03l-95.723-97.234c-1.0078-1.0078-2.5195-1.0078-3.5273 0-1.0078 1.0078-1.0078 2.5195 0 3.5273l102.27 103.79 102.27-103.79c1.0078-1.0078 1.0078-2.5195 0-3.5273-1.5117-1.0078-3.0234-1.0078-4.0312 0z"
+                        ></path>
+                      </g>
+                      <g id="IconSvg_iconCarrier">
+                        <path
+                          xmlns="http://www.w3.org/2000/svg"
+                          d="m545.6 413.6-95.723 97.234v-136.03c0-54.914-44.84-99.754-99.754-99.754-54.914 0-100.26 44.84-100.26 99.754 0 1.5117 1.0078 2.5195 2.5195 2.5195 1.5117 0 2.5195-1.0078 2.5195-2.5195 0-52.395 42.32-94.715 94.715-94.715 52.395 0 94.715 42.32 94.715 94.715v136.03l-95.723-97.234c-1.0078-1.0078-2.5195-1.0078-3.5273 0-1.0078 1.0078-1.0078 2.5195 0 3.5273l102.27 103.79 102.27-103.79c1.0078-1.0078 1.0078-2.5195 0-3.5273-1.5117-1.0078-3.0234-1.0078-4.0312 0z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="work__items">
+                <div id="1" class="work__item item-work">
+                  <div data-aos="fade-up" class="item-work__image video-block">
+                    <!-- <img src="@img/work/011.jpg" alt="" /> -->
+                    <video controls poster="./assets/img/011.jpg">
+                      <source src="../../../assets/video/nikasson.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <div class="item-work__info">
+                    <h4 data-lang="workTitle1" class="item-work__title">NIKASSON BREND</h4>
+                    <div class="item-work__description">
+                      <p data-lang="itemWorkDescr1P1">Site is built on the Tilda platform using third-party code. Standard and Z-blocks are combined.</p>
+                      <p data-lang="itemWorkDescr1P2">Skills: Figma, Tilda, JS, CSS</p>
+                    </div>
+                    <a href="https://github.com/Nexabenskiy/NIKASON-tilda" class="item-work__link">GitHub</a>
+                  </div>
+                </div>
+                <div id="2" class="work__item item-work">
+                  <div data-aos="fade-up" class="item-work__image video-block">
+                    <!-- <img src="@img/work/012.jpg" alt="" /> -->
+                    <video controls poster="./assets/img/012.jpg">
+                      <source src="../../../assets/video/yoga.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <div class="item-work__info">
+                    <h4 class="item-work__title">YOGA</h4>
+                    <div class="item-work__description">
+                      <p data-lang="itemWorkDescr2P1">Site is built on the Tilda platform using third-party code. Standard and Z-blocks are combined.</p>
+                      <p data-lang="itemWorkDescr2P2">Skills: Figma, Tilda, JS, CSS</p>
+                    </div>
+                    <a href="https://github.com/Nexabenskiy/Tilda-yoga" class="item-work__link">GitHub</a>
+                  </div>
+                </div>
+                <div id="3" class="work__item item-work">
+                  <div data-aos="fade-up" class="item-work__image">
+                    <img src="./assets/img/013.jpg" alt="" />
+                  </div>
+                  <div class="item-work__info">
+                    <a href="" class="item-work__title">PLANTIFY</a>
+                    <div class="item-work__description">
+                      <p data-lang="itemWorkDescr3P1">The online store of indoor plants offers a variety of potted flowers to decorate the interior of your home or office.</p>
+                      <p data-lang="itemWorkDescr3P2">Skills: Figma, React, JS, Tiilwind CSS</p>
+                    </div>
+                    <a href="https://github.com/Nexabenskiy/Plantify" class="item-work__link">GitHub</a>
+                  </div>
+                </div>
+                <div id="4" class="work__item item-work">
+                  <div data-aos="fade-up" class="item-work__image">
+                    <img src="./assets/img/014.jpg" alt="" />
+                  </div>
+                  <div class="item-work__info">
+                    <a href="" class="item-work__title">MAROON</a>
+                    <div class="item-work__description">
+                      <p data-lang="itemWorkDescr4P1">The online cosmetics store is a convenient platform for purchasing high-quality decorative and care products from well-known brands.</p>
+                      <p data-lang="itemWorkDescr4P2">Skills: Figma, React, JS, Tiilwind CSS</p>
+                    </div>
+                    <a href="https://github.com/Nexabenskiy/MAROON" class="item-work__link">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contacts" class="page__contacts contacts">
+          <div class="contacts__container">
+            <div class="contacts__title">
+              <h2 data-lang="contactsTitle" data-aos="fade-right" class="contacts__title block-title">contacts</h2>
+              <span class="block-title" data-aos="fade-left" data-aos-duration="1500">.</span>
+            </div>
+            <div class="contacts__body">
+              <div data-aos="fade-right" class="contacts__image">
+                <picture>
+                  <source media="(max-width: 600px)" srcset="./assets/img/contacts-600.webp" type="image/webp" />
+                  <source media="(max-width: 1200px)" srcset="./assets/img/contacts-1200.webp" type="image/webp" />
+                  <img alt="" src="./assets/img/contacts.webp" />
+                </picture>
+              </div>
+              <!-- <hr /> -->
+              <div class="contacts__info">
+                <div data-aos="fade-left" class="contacts__text">
+                  <p data-lang="contactsText" class="block-text">I am always open to interesting offers and collaborations!</p>
+                </div>
+                <div data-aos="fade-left" class="contacts__links">
+                  <a href="mailto:kostik.vasilev.1984@gmail.com" class="contacts__link">kostik.vasilev.1984@gmail.com</a>
+                  <a href="https://github.com/Nexabenskiy" class="contacts__link">https://github.com/Nexabenskiy</a>
+                  <a href="https://t.me/VasileV84" class="contacts__link">https://t.me/VasileV84</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer data-fls-footer="" class="footer">
+        <div class="footer__container"></div>
+      </footer>
+    </div>
+  </body>
+</html>
